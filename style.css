@@ -1,0 +1,11 @@
+a[href^="http://"], a:visited[href^="http://"], a[href^="https://"], a:visited[href^="https://"]{
+    color: purple;
+}
+
+a[href$=".doc"], a:visited[href$=".doc"]{
+    color: red;
+}
+
+a[href$=".docx"], a:visited[href$=".docx"]{
+    color: green;
+}
